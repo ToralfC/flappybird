@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#hoved {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#infodiv {
+    background-image: url("./bilder/info_bakgrunn.png");
+    display: flex;
+    justify-content: center;
+    height: 540px;
+
+}
+
+#board {
+    background-image: url("./bilder/flappybirdbg.png");
+}
+
+@media(max-width: 540px) {
+    #board {
+        background-image: url("./bilder/flappybirdbg_tynn.png");
+    }
+}
+
+#navbar {
+    margin: 0px;
+    height: 60px;
+    background-color: rgba(0, 217, 255, 0.95);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+
+
+}
+
+#info, #play {
+    text-decoration: none;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: 30px;
+
+}
+
+
+
+#info, #play {
+    width: 250px;
+}
+
+#logodiv {
+    width: 400px;
+    height: 40px;
+    padding-left: 18px;
+
+}
+
+#logo {
+    height: 40px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#information {
+    background-color: rgba(211, 211, 211, 0.9);
+    border: 6px dashed brown;
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#welcome {
+    margin-bottom: 20px;
+
+}
+
+#instructions {
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/*#savedHighscore {
+    text-decoration: black;
+
+
+}
+
+#savedBird {
+    text-decoration: black;
+} */
